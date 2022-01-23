@@ -1,11 +1,11 @@
 {
-  "name": "Hide TSN Scores On Video Page",
-  "description": "Remove Scores from TSN Video Page",
+  "name": "ICHL",
+  "description": "ICHL extension for ESPN Fantasy",
   "version": "1",
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": ["https://www.tsn.ca/video/*"],
+      "matches": ["https://fantasy.espn.com/*"],
       "js": ["myscript.js"]
     }
   ]

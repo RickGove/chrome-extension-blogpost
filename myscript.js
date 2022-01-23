@@ -28,6 +28,7 @@ window.setTimeout(() => {
   var t = document.createTextNode("❌");
   btn.style.background = "#b90a0a";
   btn.style.color = "#ffffff";
+  btn.className = "Button";
 
   btn.style.padding = "10px";
   btn.style.marginBottom = "10px";
@@ -39,6 +40,7 @@ window.setTimeout(() => {
   var t2 = document.createTextNode("🔃");
   btn2.style.background = "#b90a0a";
   btn2.style.color = "#ffffff";
+  btn2.className = "Button";
 
   btn2.style.padding = "10px";
   btn2.style.marginBottom = "10px";
